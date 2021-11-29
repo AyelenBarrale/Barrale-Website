@@ -1,0 +1,35 @@
+.contactContainer {
+  margin: 11rem;
+  h1 {
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-weight: 500;
+  }
+  .mailme,
+  .followme {
+    margin-top: 2rem;
+    display: flex;
+    h4 {
+      padding-right: 2rem;
+    }
+  }
+  .followme {
+    i {
+      color: #2c3538;
+      &:hover {
+        cursor: pointer;
+        color: grey;
+      }
+    }
+    .fa-linkedin {
+      padding-right: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactContainer {
+    margin: 11rem 4rem;
+  }
+}

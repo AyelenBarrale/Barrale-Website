@@ -1,0 +1,36 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    width: 20%;
+  }
+  .pagesLinks {
+    display: flex;
+    gap: 1rem;
+    .pagesItem:not(:last-child) {
+      padding-right: 3rem;
+    }
+    .link:hover {
+      cursor: pointer;
+      color: grey;
+    }
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .navContainer,
+  .pagesLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1.5rem;
+  }
+  .pagesLinks {
+    visibility: hidden;
+    .pagesItem {
+      padding: 0.5rem 1rem;
+    }
+  }
+}

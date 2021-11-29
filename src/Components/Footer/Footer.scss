@@ -1,0 +1,36 @@
+.FooterContainer {
+  display: flex;
+  justify-content: space-between;
+  a:hover {
+    cursor: pointer;
+    color: grey;
+  }
+  .leftFooter {
+    padding-left: 1rem;
+    i {
+      color: #2c3538;
+      &:hover {
+        cursor: pointer;
+        color: grey;
+      }
+    }
+    .fa-linkedin {
+      padding-right: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .FooterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .leftFooter {
+      padding: 0;
+    }
+    .copyright,
+    .mailFooter {
+      padding-top: 0.5rem;
+    }
+  }
+}

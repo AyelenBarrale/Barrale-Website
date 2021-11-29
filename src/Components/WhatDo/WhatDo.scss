@@ -1,0 +1,50 @@
+.doContainer {
+  margin: 11rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .fieldsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      i {
+        padding-bottom: 0.5rem;
+      }
+
+      h2 {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-weight: 200;
+        margin-right: 5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .doContainer {
+    margin: 11rem 4rem;
+
+    .fieldsContainer {
+      display: block;
+
+      .field {
+        margin: 2rem 0 4rem 0;
+
+        p {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

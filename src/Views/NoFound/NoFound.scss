@@ -1,0 +1,16 @@
+.noFoundContainer {
+  margin: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .noFoundContainer {
+        margin: 0 4rem 5rem 4rem;
+    }
+}

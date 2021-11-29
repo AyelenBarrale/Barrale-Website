@@ -1,0 +1,18 @@
+.presentationContainer {
+  margin: 11rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-weight: 500;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .presentationContainer {
+    margin: 2rem 4rem;
+  }
+}
