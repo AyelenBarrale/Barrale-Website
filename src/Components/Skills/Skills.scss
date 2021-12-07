@@ -36,16 +36,14 @@
   .skillsContainer {
     margin: 11rem 4rem;
 
-    
-
     .frontSkills,
-  .backSkills {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    .backSkills {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
 
-    .skill {
-      margin: 1rem 0
+      .skill {
+        margin: 1rem 0;
+      }
     }
-  }
   }
 }
